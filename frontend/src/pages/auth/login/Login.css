@@ -1,0 +1,4 @@
+.black-checkbox > span.ant-checkbox-checked > span.ant-checkbox-inner {
+  background-color: black;
+  border-color: black;
+}

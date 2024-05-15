@@ -4,7 +4,7 @@ import { facultymembers } from "../../constants/facultymembers";
 const FacultyMembers = () => {
   console.log("facultymembers[0]", facultymembers[0]);
   return (
-    <div className="flex flex-col text-center items-center my-10">
+    <div className="flex flex-col gap-4 text-center items-center my-10">
       <div className="text-3xl font-bold">Faculty Members</div>
       {/* Editor in chief here */}
       <div className="p-6 space-y-2 min-w-[220px] w-full max-w-[300px] hover:shadow-lg rounded-xl border border-transparent hover:border-zinc-200">

@@ -1,8 +1,8 @@
-import image1 from "/faculty-image-1.png";
-import image2 from "/faculty-image-2.png";
-import image3 from "/faculty-image-3.png";
-import image4 from "/faculty-image-4.png";
-import image5 from "/faculty-image-5.png";
+import image1 from "../assets/faculty-image-1.png";
+import image2 from "../assets/faculty-image-2.png";
+import image3 from "../assets/faculty-image-3.png";
+import image4 from "../assets/faculty-image-4.png";
+import image5 from "../assets/faculty-image-5.png";
 
 export const facultymembers = [
   {

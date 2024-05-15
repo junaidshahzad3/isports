@@ -1,13 +1,19 @@
 import { Outlet } from "react-router-dom";
 import { Layout } from "antd";
-import CustomFooter from "../components/customfooter/CustomFooter";
-import CustomNavbar from "../components/customnavbar/CustomNavbar";
+import CustomNavbar from "../components/shared/CustomNavbar";
+import CustomFooter from "../components/shared/CustomFooter";
+import MarqueeText from "../components/shared/MarqueeText";
 
 const { Header, Content, Footer } = Layout;
 
 const CustomLayout = () => {
   return (
-    <Layout>
+    <Layout
+      style={{
+        minHeight: "100vh",
+      }}
+    >
+      <MarqueeText filter="small" />
       <Header
         style={{
           height: "inherit",
@@ -29,7 +35,6 @@ const CustomLayout = () => {
       <Footer
         style={{
           textAlign: "center",
-          backgroundColor: "#1B1F2E",
           display: "flex",
           justifyContent: "center",
         }}

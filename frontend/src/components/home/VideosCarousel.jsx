@@ -1,16 +1,6 @@
-import React from "react";
 import { Carousel } from "antd";
-import FeaturedStoryCard from "../shared/FeaturedStoryCard";
+import VideoCardMini from "../shared/VideoCardMini";
 import useScreenWidth from "../../helpers/useScreenWidth";
-
-const contentStyle = {
-  margin: 0,
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
 const chunkArray = (array, size) => {
   const result = [];
   for (let i = 0; i < array.length; i += size) {
@@ -19,7 +9,7 @@ const chunkArray = (array, size) => {
   return result;
 };
 
-const FeaturedStoriesCarousel = ({ className, data }) => {
+const VideosCarousel = ({ className, data, mode }) => {
   let width = useScreenWidth();
   const chunkedData = chunkArray(
     data,
@@ -32,16 +22,18 @@ const FeaturedStoriesCarousel = ({ className, data }) => {
         {chunkedData.map((group, index) => (
           <div
             key={index}
-            className="!flex justify-center gap-4 px-[10%] py-[2%]"
+            className="!flex !justify-center gap-4 px-[10%] py-[2%]"
           >
             {group.map((item) => (
-              <FeaturedStoryCard
-                key={item.id}
-                image={item.image}
-                title={item.title}
-                date={item.date}
-                className="h-[400px] w-full max-w-[250px]"
-              />
+              <div key={index} className="w-max">
+                <VideoCardMini
+                  mode={mode}
+                  image={item.image}
+                  title={item.title}
+                  date={item.date}
+                  className="h-[400px] w-full max-w-[250px]"
+                />
+              </div>
             ))}
           </div>
         ))}
@@ -49,4 +41,4 @@ const FeaturedStoriesCarousel = ({ className, data }) => {
     </div>
   );
 };
-export default FeaturedStoriesCarousel;
+export default VideosCarousel;

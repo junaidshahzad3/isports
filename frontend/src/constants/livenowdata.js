@@ -39,4 +39,28 @@ export const livenowdata = [
     image:
       "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
   },
+  {
+    id: 6,
+    date: new Date(),
+    title: "Sohail Bhatti",
+    subtitle: "Director Human Resource",
+    image:
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+  },
+  {
+    id: 7,
+    date: new Date(),
+    title: "Suhban Akhter",
+    subtitle: "Director operations",
+    image:
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+  },
+  {
+    id: 8,
+    date: new Date(),
+    title: "Mr. Sharoz",
+    subtitle: "Director Marketing",
+    image:
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+  },
 ];

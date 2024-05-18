@@ -3,7 +3,7 @@ import data from "../../constants/sportscategories.json";
 
 const AllCategories = () => {
   return (
-    <div className="w-full relative flex">
+    <div className="w-full relative flex items-center">
       <div className="w-full flex gap-2 overflow-auto ps-6">
         {data?.map((values, index) => (
           <div key={index} className="py-2 space-y-2 min-w-max w-full">

@@ -3,7 +3,7 @@ import data from "../../constants/matchesschedules.json";
 
 const MatchSchedules = () => {
   return (
-    <div className="w-full relative flex">
+    <div className="w-full relative flex items-center">
       <div className="w-full flex overflow-auto">
         {data?.map((values, index) => (
           <div

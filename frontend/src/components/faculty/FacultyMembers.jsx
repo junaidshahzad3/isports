@@ -2,7 +2,6 @@ import React from "react";
 import { facultymembers } from "../../constants/facultymembers";
 
 const FacultyMembers = () => {
-  console.log("facultymembers[0]", facultymembers[0]);
   return (
     <div className="flex flex-col gap-4 text-center items-center my-10">
       <div className="text-3xl font-bold">Faculty Members</div>

@@ -1,0 +1,43 @@
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  opacity: 50%;
+  z-index: 1 !important;
+  color: black !important;
+  border-radius: 50%;
+  background-color: white !important;
+  width: 40px; /* Adjust as necessary */
+  height: 40px; /* Adjust as necessary */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* Ensure the background image fits properly */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border: 1px solid gray;
+}
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  opacity: 100%;
+  z-index: 1 !important;
+  color: black !important;
+  border-radius: 50%;
+  background-color: white !important;
+  width: 40px; /* Adjust as necessary */
+  height: 40px; /* Adjust as necessary */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* Ensure the background image fits properly */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+}
+.ant-carousel .slick-prev {
+  inset-inline-start: 25px !important;
+  background-image: url("./assets/left-arrow-icon.png") !important;
+}
+
+.ant-carousel .slick-next {
+  inset-inline-end: 25px !important;
+  background-image: url("./assets/right-arrow-icon.png") !important;
+}

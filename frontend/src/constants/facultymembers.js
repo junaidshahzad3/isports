@@ -19,19 +19,19 @@ export const facultymembers = [
   },
   {
     id: 3,
-    name: "Subhan Akhter",
-    designation: "Director Human Resources",
+    name: "Sohail Bhatti",
+    designation: "Director Human Resource",
     image: image3,
   },
   {
     id: 4,
-    name: "Mr. Sharoz",
+    name: "Suhban Akhter",
     designation: "Director operations",
     image: image4,
   },
   {
     id: 4,
-    name: "Sohail Bhatti",
+    name: "Mr. Sharoz",
     designation: "Director Marketing",
     image: image5,
   },

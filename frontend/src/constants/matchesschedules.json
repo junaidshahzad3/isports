@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "link": "https://www.foxsports.com/mlb/san-diego-padres-vs-atlanta-braves-doubleheader-game-2-may-20-2024-game-boxscore-91164",
     "category": "MLB",
     "date": "21 May",
     "time": "3:20 AM",
@@ -17,6 +18,7 @@
   },
   {
     "id": 2,
+    "link": "https://www.foxsports.com/mlb/seattle-mariners-vs-new-york-yankees-may-20-2024-game-boxscore-88943",
     "category": "MLB",
     "date": "21 May",
     "time": "4:40 AM",
@@ -33,6 +35,7 @@
   },
   {
     "id": 3,
+    "link": "https://www.foxsports.com/mlb/detroit-tigers-vs-kansas-city-royals-may-20-2024-game-boxscore-88944",
     "category": "NHL",
     "date": "21 May",
     "time": "6:00 AM",
@@ -49,6 +52,7 @@
   },
   {
     "id": 4,
+    "link": "https://www.foxsports.com/nhl/nhl-playoffs-round-2-game-7-edmonton-oilers-vs-vancouver-canucks-may-20-2024-game-boxscore-41410",
     "category": "MLB",
     "date": "21 May",
     "time": "7:10 AM",
@@ -65,6 +69,7 @@
   },
   {
     "id": 5,
+    "link": "https://www.foxsports.com/mlb/arizona-diamondbacks-vs-los-angeles-dodgers-may-20-2024-game-boxscore-88947",
     "category": "CAN PL",
     "date": "22 May",
     "time": "12:00 AM",

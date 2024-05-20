@@ -1,51 +1,61 @@
 [
   {
     "id": 1,
+    "link": "https://www.foxsports.com/mlb",
     "name": "MLB",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/MLB.vresize.45.45.medium.0.png"
   },
   {
     "id": 2,
+    "link": "https://www.foxsports.com/nba",
     "name": "NBA",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/NBA.vresize.45.45.medium.0.png"
   },
   {
     "id": 3,
+    "link": "https://www.foxsports.com/nascar/cup-series",
     "name": "NASCAR",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/NASCARCup.vresize.45.45.medium.2.png"
   },
   {
     "id": 4,
+    "link": "https://www.foxsports.com/ufl",
     "name": "UFL",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/UFL.vresize.45.45.medium.0.png"
   },
   {
     "id": 5,
+    "link": "https://www.foxsports.com/nfl",
     "name": "NFL",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/NFL.vresize.45.45.medium.0.png"
   },
   {
     "id": 6,
+    "link": "https://www.foxsports.com/nhl",
     "name": "NHL",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/NHL.vresize.45.45.medium.0.png"
   },
   {
     "id": 7,
+    "link": "https://www.foxsports.com/soccer/mls",
     "name": "MLS",
     "logo": "https://b.fssta.com/uploads/application/soccer/competition-logos/MLS.vresize.45.45.medium.0.png"
   },
   {
     "id": 8,
+    "link": "https://www.foxsports.com/college-football",
     "name": "NCAAFB",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/NCAAFootball.vresize.45.45.medium.2.png"
   },
   {
     "id": 9,
+    "link": "https://www.foxsports.com/golf/pga-tour",
     "name": "PGA",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/Golf-PGA.vresize.45.45.medium.0.png"
   },
   {
     "id": 10,
+    "link": "https://www.foxsports.com/bowling",
     "name": "PBA",
     "logo": "https://b.fssta.com/uploads/application/leagues/logos/PBA.vresize.45.45.medium.0.png"
   }

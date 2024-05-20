@@ -59,5 +59,6 @@ export const featuredvideosdata = [
     date: new Date(),
     image:
       "https://a57.foxsports.com/static-media.fox.com/fmc/prod/sports/VX-9174153/1280/720/efwmz5d91yxjc2kq.jpg?ve=1&tl=1",
+    link: "https://www.foxsports.com/watch/fmc-yki9clnujx9cnlyt",
   },
 ];

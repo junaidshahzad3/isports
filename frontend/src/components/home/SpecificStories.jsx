@@ -5,6 +5,9 @@ const SpecificStories = ({ data }) => {
   return (
     <div className="flex flex-col gap-4 items-center my-10">
       <div
+        onClick={() => {
+          return (window.location.href = `${data[0].link}`);
+        }}
         className={`w-full group relative overflow-hidden rounded-lg shadow-md`}
       >
         <img
@@ -26,7 +29,9 @@ const SpecificStories = ({ data }) => {
               <div
                 key={index}
                 className="overflow-hidden cursor-pointer w-full hover:shadow-lg hover:rounded"
-                // onClick={onClick}
+                onClick={() => {
+                  return (window.location.href = `${values.link}`);
+                }}
               >
                 <img
                   className="w-full max-h-[300px] object-cover shadow-inner rounded"

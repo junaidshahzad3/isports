@@ -3,12 +3,14 @@ export const featuredvideosdata = [
     id: 1,
     title:
       "MLB Power Rankings: Yankees, Phillies, Dodgers battle for the No. 1 spot",
+    link: "https://www.foxsports.com/watch/fmc-0nq0xhtwexqhel1e",
     date: new Date(),
     image:
       "https://a57.foxsports.com/static-media.fox.com/fmc/prod/sports/VX-9174333/1280/720/esiy42sqc9rsyhcp.jpg?ve=1&tl=1",
   },
   {
     id: 2,
+    link: "https://www.foxsports.com/watch/fmc-7nipbks6jkhpjpnn",
     title: "Angels vs. Rangers Highlights | MLB on FOX",
     date: new Date(),
     image:
@@ -16,6 +18,7 @@ export const featuredvideosdata = [
   },
   {
     id: 3,
+    link: "https://www.foxsports.com/watch/play-669373599000c21",
     title:
       "Big deal or no deal that Aaron Rodgers showed up to Jets OTAs? | NFL | SPEAK",
     date: new Date(),
@@ -24,6 +27,7 @@ export const featuredvideosdata = [
   },
   {
     id: 4,
+    link: "https://www.foxsports.com/watch/play-65bd0cebd0000cb",
     title:
       "Is Justin Herbert a ‘social media QB’? Keenan Allen on Lamar Jackson's extension & Giannis | SPEAK",
     date: new Date(),
@@ -32,6 +36,7 @@ export const featuredvideosdata = [
   },
   {
     id: 5,
+    link: "https://www.foxsports.com/watch/play-67cc3a4fa000a01",
     title:
       "Jets labelled ‘most overhyped’ & Seahawks considered ‘most overlooked’ NFL teams | NFL | SPEAK",
     date: new Date(),
@@ -40,6 +45,7 @@ export const featuredvideosdata = [
   },
   {
     id: 6,
+    link: "https://www.foxsports.com/watch/fmc-6sqm226nr580usbe",
     title:
       "Punches thrown between Ricky Stenhouse Jr. and Kyle Busch after NASCAR All-Star Race | NASCAR on FOX",
     date: new Date(),
@@ -48,6 +54,7 @@ export const featuredvideosdata = [
   },
   {
     id: 7,
+    link: "https://www.foxsports.com/watch/fmc-yki9clnujx9cnlyt",
     title: "NASCAR Cup Series: All Star Race Highlights | NASCAR on FOX",
     date: new Date(),
     image:
@@ -59,6 +66,6 @@ export const featuredvideosdata = [
     date: new Date(),
     image:
       "https://a57.foxsports.com/static-media.fox.com/fmc/prod/sports/VX-9174153/1280/720/efwmz5d91yxjc2kq.jpg?ve=1&tl=1",
-    link: "https://www.foxsports.com/watch/fmc-yki9clnujx9cnlyt",
+    link: "https://www.foxsports.com/watch/fmc-wdia3pl75bsyqfbp",
   },
 ];

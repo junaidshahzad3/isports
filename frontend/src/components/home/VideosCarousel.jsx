@@ -31,6 +31,7 @@ const VideosCarousel = ({ className, data, mode }) => {
                   image={item.image}
                   title={item.title}
                   date={item.date}
+                  link={item.link}
                   className="h-[400px] w-full max-w-[250px]"
                 />
               </div>

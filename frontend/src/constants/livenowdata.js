@@ -1,6 +1,7 @@
 export const livenowdata = [
   {
     id: 1,
+    link: "",
     date: new Date(),
     title: "The Herd With Colin Cowherd",
     image:
@@ -8,6 +9,7 @@ export const livenowdata = [
   },
   {
     id: 2,
+    link: "",
     date: new Date(),
     title: "Nebraska Volleyball Classic - Omaha at Nebraska",
     image:
@@ -15,6 +17,7 @@ export const livenowdata = [
   },
   {
     id: 3,
+    link: "",
     date: new Date(),
     title: "NASCAR Cup Series - NASCAR All-Star Race",
     image:
@@ -22,6 +25,7 @@ export const livenowdata = [
   },
   {
     id: 4,
+    link: "",
     date: new Date(),
     title: "Fútbol Italiano Serie B - Palermo vs. Venezia",
     image:
@@ -29,6 +33,7 @@ export const livenowdata = [
   },
   {
     id: 5,
+    link: "",
     date: new Date(),
     title: "Italian Serie B Soccer - Palermo vs. Venezia",
     image:
@@ -36,6 +41,7 @@ export const livenowdata = [
   },
   {
     id: 6,
+    link: "",
     date: new Date(),
     title: "NASCAR Cup Series - NASCAR All-Star Race",
     image:
@@ -43,6 +49,7 @@ export const livenowdata = [
   },
   {
     id: 7,
+    link: "",
     date: new Date(),
     title: "Fútbol Italiano Serie B - Palermo vs. Venezia",
     image:
@@ -50,6 +57,7 @@ export const livenowdata = [
   },
   {
     id: 8,
+    link: "",
     date: new Date(),
     title: "Nebraska Volleyball Classic - Omaha at Nebraska",
     image:

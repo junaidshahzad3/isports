@@ -1,3 +1,24 @@
+::-webkit-scrollbar {
+  width: 16px;
+  /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(201, 201, 201);
+  /* Set the color of the thumb (scrollbar handle) */
+  background-clip: content-box;
+  border: 5px solid transparent;
+  border-radius: 28px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+  /* Set the color of the track (the area behind the thumb) */
+  border-radius: 28px !important;
+  background-clip: content-box;
+  border: 5px solid transparent;
+}
+
 .ant-carousel .slick-prev,
 .ant-carousel .slick-next {
   opacity: 50%;

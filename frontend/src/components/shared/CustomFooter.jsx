@@ -3,7 +3,6 @@ import linkedinIcon from "../../assets/linkedin.svg";
 import instagramIcon from "../../assets/instagram.svg";
 import twitterIcon from "../../assets/twitter.svg";
 import emailIcon from "../../assets/email.svg";
-import logoFooter from "../../assets/logo-footer.svg";
 import emailPink from "../../assets/email-pink.svg";
 import phonePink from "../../assets/phone-pink.svg";
 import locationPink from "../../assets/location-pink.svg";
@@ -24,10 +23,10 @@ const CustomFooter = () => {
           </Link>
           {/* Newsletter Content */}
           <p className="">
-            Follow every sports news of the 2024, with access to all the live
-            scores and stats.
+            Follow every sports news, with access to all the live scores and
+            stats.
           </p>
-          <Space className="mt-6" wrap>
+          {/* <Space className="mt-6" wrap>
             <img
               src={twitterIcon}
               loading="lazy"
@@ -52,7 +51,7 @@ const CustomFooter = () => {
               alt="instagram"
               className="cursor-pointer hover:brightness-90"
             />
-          </Space>
+          </Space> */}
         </div>
 
         <div className="flex flex-row 2xl:gap-40 xl:gap-36 lg:gap-32 md:gap-28 gap-x-24 gap-y-8 flex-wrap">
@@ -75,16 +74,16 @@ const CustomFooter = () => {
             </p>
             <ul className="font-futura-med-condensed md:text-base text-sm font-normal">
               <li className="flex gap-3 mb-1 cursor-pointer hover:brightness-90">
-                <img src={emailPink} loading="lazy" alt="email" />{" "}
-                <p>0000000000000</p>
-              </li>
-              <li className="flex gap-3 mb-1 cursor-pointer hover:brightness-90">
                 <img src={phonePink} loading="lazy" alt="phone" />
-                <p>hello@isports.com</p>
+                <p>+923244540373</p>
               </li>
+              {/* <li className="flex gap-3 mb-1 cursor-pointer hover:brightness-90">
+                <img src={emailPink} loading="lazy" alt="email" />{" "}
+                <p>hello@isports.com</p>
+              </li> */}
               <li className="flex gap-3 mb-1 cursor-pointer hover:brightness-90">
                 <img src={locationPink} loading="lazy" alt="location" />{" "}
-                <p>San Jose</p>
+                <p>19c Corporation Colony Chohan Road Islampura Lahore</p>
               </li>
             </ul>
             {/* <div className="mt-8">
@@ -108,7 +107,7 @@ const CustomFooter = () => {
       <br />
 
       {/* Copywrite and Payment Gateways */}
-      <div className="text-center">© Copyright 2023 by ISports</div>
+      <div className="text-center">© Copyright 2018 by ISports</div>
       <br />
       <br />
     </div>

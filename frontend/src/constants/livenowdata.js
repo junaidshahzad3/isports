@@ -2,65 +2,57 @@ export const livenowdata = [
   {
     id: 1,
     date: new Date(),
-    title: "Qais Asghar",
-    subtitle: "Editor in Chief",
+    title: "The Herd With Colin Cowherd",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-9176296/qc2qahfk684v3pr7.jpg",
   },
   {
     id: 2,
     date: new Date(),
-    title: "Shahzaib Shahzad",
-    subtitle: "Sports Correspondents Head",
+    title: "Nebraska Volleyball Classic - Omaha at Nebraska",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8573494/qzlyx1xmikvfa4w3.jpg",
   },
   {
     id: 3,
     date: new Date(),
-    title: "Sohail Bhatti",
-    subtitle: "Director Human Resource",
+    title: "NASCAR Cup Series - NASCAR All-Star Race",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8279033/fnh4dhlevjcbdo2n.jpg",
   },
   {
     id: 4,
     date: new Date(),
-    title: "Suhban Akhter",
-    subtitle: "Director operations",
+    title: "Fútbol Italiano Serie B - Palermo vs. Venezia",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://b.fssta.com/uploads/application/fsgo/chip-images/soccer/chip_italian_serie_b_fallback.vresize.452.254.medium.0.jpg",
   },
   {
     id: 5,
     date: new Date(),
-    title: "Mr. Sharoz",
-    subtitle: "Director Marketing",
+    title: "Italian Serie B Soccer - Palermo vs. Venezia",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8500548/m02ubzvl11gcmy21.jpg",
   },
   {
     id: 6,
     date: new Date(),
-    title: "Sohail Bhatti",
-    subtitle: "Director Human Resource",
+    title: "NASCAR Cup Series - NASCAR All-Star Race",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8279033/fnh4dhlevjcbdo2n.jpg",
   },
   {
     id: 7,
     date: new Date(),
-    title: "Suhban Akhter",
-    subtitle: "Director operations",
+    title: "Fútbol Italiano Serie B - Palermo vs. Venezia",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://b.fssta.com/uploads/application/fsgo/chip-images/soccer/chip_italian_serie_b_fallback.vresize.452.254.medium.0.jpg",
   },
   {
     id: 8,
     date: new Date(),
-    title: "Mr. Sharoz",
-    subtitle: "Director Marketing",
+    title: "Nebraska Volleyball Classic - Omaha at Nebraska",
     image:
-      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8508863/b2gpjt4yv21m5x5z.jpg",
+      "https://static-media.fox.com/fmc/prod/sports/artwork/VX-8573494/qzlyx1xmikvfa4w3.jpg",
   },
 ];

@@ -16,7 +16,7 @@ const MarqueeText = ({ filter }) => {
                     <img
                       src={values.image}
                       alt=""
-                      className="w-[35px] h-[35px] rounded-full"
+                      className="w-[35px] h-[35px] rounded-full object-cover"
                     />
                   )}
                   {values.text && (

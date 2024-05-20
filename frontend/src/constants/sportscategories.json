@@ -1,102 +1,52 @@
 [
   {
     "id": 1,
-    "name": "Football",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "MLB",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/MLB.vresize.45.45.medium.0.png"
   },
   {
     "id": 2,
-    "name": "Basketball",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "NBA",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/NBA.vresize.45.45.medium.0.png"
   },
   {
     "id": 3,
-    "name": "Baseball",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "NASCAR",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/NASCARCup.vresize.45.45.medium.2.png"
   },
   {
     "id": 4,
-    "name": "Soccer",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "UFL",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/UFL.vresize.45.45.medium.0.png"
   },
   {
     "id": 5,
-    "name": "Tennis",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "NFL",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/NFL.vresize.45.45.medium.0.png"
   },
   {
     "id": 6,
-    "name": "Cricket",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "NHL",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/NHL.vresize.45.45.medium.0.png"
   },
   {
     "id": 7,
-    "name": "Hockey",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "MLS",
+    "logo": "https://b.fssta.com/uploads/application/soccer/competition-logos/MLS.vresize.45.45.medium.0.png"
   },
   {
     "id": 8,
-    "name": "Golf",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "NCAAFB",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/NCAAFootball.vresize.45.45.medium.2.png"
   },
   {
     "id": 9,
-    "name": "Rugby",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "PGA",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/Golf-PGA.vresize.45.45.medium.0.png"
   },
   {
     "id": 10,
-    "name": "Swimming",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 11,
-    "name": "Cycling",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 12,
-    "name": "Boxing",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 13,
-    "name": "Wrestling",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 14,
-    "name": "Martial Arts",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 15,
-    "name": "Volleyball",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 16,
-    "name": "Table Tennis",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 17,
-    "name": "Badminton",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 18,
-    "name": "Athletics",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 19,
-    "name": "Gymnastics",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
-  },
-  {
-    "id": 20,
-    "name": "Skiing",
-    "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA="
+    "name": "PBA",
+    "logo": "https://b.fssta.com/uploads/application/leagues/logos/PBA.vresize.45.45.medium.0.png"
   }
 ]

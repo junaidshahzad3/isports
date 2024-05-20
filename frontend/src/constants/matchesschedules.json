@@ -1,129 +1,81 @@
 [
   {
     "id": 1,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
+    "category": "MLB",
+    "date": "21 May",
+    "time": "3:20 AM",
     "teams": [
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Padres.vresize.60.60.medium.1.png",
+        "name": "SD"
       },
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Braves.vresize.60.60.medium.0.png",
+        "name": "ATL"
       }
     ]
   },
   {
     "id": 2,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
+    "category": "MLB",
+    "date": "21 May",
+    "time": "4:40 AM",
     "teams": [
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Tigers.vresize.60.60.medium.0.png",
+        "name": "DEF"
       },
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Royals.vresize.60.60.medium.0.png",
+        "name": "KC"
       }
     ]
   },
   {
     "id": 3,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
+    "category": "NHL",
+    "date": "21 May",
+    "time": "6:00 AM",
     "teams": [
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/nhl/team-logos/Oilers.vresize.60.60.medium.0.png",
+        "name": "EDM"
       },
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/nhl/team-logos/Canucks.vresize.60.60.medium.0.png",
+        "name": "VAN"
       }
     ]
   },
   {
     "id": 4,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
+    "category": "MLB",
+    "date": "21 May",
+    "time": "7:10 AM",
     "teams": [
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Diamondbacks.vresize.60.60.medium.1.png",
+        "name": "AZ"
       },
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/mlb/team-logos/Dodgers.vresize.60.60.medium.0.png",
+        "name": "LAD"
       }
     ]
   },
   {
     "id": 5,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
+    "category": "CAN PL",
+    "date": "22 May",
+    "time": "12:00 AM",
     "teams": [
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/soccer/team-logos/hfx-wanderers-fc.vresize.80.80.medium.0.png",
+        "name": "HFX Wanderers FC"
       },
       {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
-    "teams": [
-      {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
-      },
-      {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
-    "teams": [
-      {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
-      },
-      {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "category": "cricket",
-    "date": "31 May",
-    "time": "9:30 PM",
-    "teams": [
-      {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
-      },
-      {
-        "logo": "https://media.gettyimages.com/id/520834490/photo/rear-view-of-cricket-ball-hitting-stumps-behind-batsman.jpg?s=612x612&w=gi&k=20&c=MdaW8H4G6LkxmdDLgrqFJNOkVnJBu5nZRrVB0D_jjdA=",
-        "name": "team1"
+        "logo": "https://b.fssta.com/uploads/application/soccer/team-logos/valour-fc.vresize.80.80.medium.0.png",
+        "name": "Valour FC"
       }
     ]
   }

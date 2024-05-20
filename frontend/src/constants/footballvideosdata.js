@@ -1,37 +1,21 @@
 export const footballvideosdata = [
   {
     id: 1,
-    title: "Alonso's amazing Leverkusen ready for 'first final'",
+    title: "Watch: Klopp's best news conference quotes",
     date: new Date(),
     image:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/99fb/live/90ff7f50-144f-11ef-bfec-4ba8a2993b62.jpg.webp",
+      "https://ichef.bbci.co.uk/news/624/cpsprodpb/222d/live/831503c0-1697-11ef-976f-87c9f89e656e.jpg",
   },
   {
     id: 2,
-    title: "Alonso's amazing Leverkusen ready for 'first final'",
+    title: "We have done something unbelievable - Guardiola",
     date: new Date(),
-    image:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/99fb/live/90ff7f50-144f-11ef-bfec-4ba8a2993b62.jpg.webp",
+    image: "https://ichef.bbci.co.uk/images/ic/1376x774/p0hz42tv.jpg",
   },
   {
     id: 3,
-    title: "Alonso's amazing Leverkusen ready for 'first final'",
+    title: "Who should be in the Premier League team of the season?",
     date: new Date(),
-    image:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/99fb/live/90ff7f50-144f-11ef-bfec-4ba8a2993b62.jpg.webp",
-  },
-  {
-    id: 4,
-    title: "Alonso's amazing Leverkusen ready for 'first final'",
-    date: new Date(),
-    image:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/99fb/live/90ff7f50-144f-11ef-bfec-4ba8a2993b62.jpg.webp",
-  },
-  {
-    id: 5,
-    title: "Alonso's amazing Leverkusen ready for 'first final'",
-    date: new Date(),
-    image:
-      "https://ichef.bbci.co.uk/news/976/cpsprodpb/99fb/live/90ff7f50-144f-11ef-bfec-4ba8a2993b62.jpg.webp",
+    image: "https://ichef.bbci.co.uk/images/ic/1376x774/p0hyzzfw.jpg",
   },
 ];

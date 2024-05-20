@@ -8,10 +8,10 @@ const MatchSchedules = () => {
         {data?.map((values, index) => (
           <div
             key={index}
-            className="border border-zinc-200 hover:border hover:border-black cursor-pointer p-6 space-y-2 min-w-[220px] w-full"
+            className="border border-zinc-200 hover:border hover:border-black cursor-pointer p-6 space-y-2 min-w-[250px] w-full"
           >
             <div className="font-semibold text-zinc-400">{values.category}</div>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex gap-4">
               <div className="flex flex-col gap-4">
                 <div className="flex gap-4 items-center">
                   <img

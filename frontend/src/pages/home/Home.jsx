@@ -2,8 +2,8 @@ import AllCategories from "../../components/home/AllCategories";
 import FeaturedStoriesSection from "../../components/home/FeaturedStoriesSection";
 import MatchSchedules from "../../components/home/MatchSchedules";
 import VideosSection from "../../components/home/VideosSection";
-import { basketballstoriesdata } from "../../constants/basketballstoriesdata";
-import { basketballvideosdata } from "../../constants/basketballvideosdata";
+import { formula1storiesdata } from "../../constants/formula1storiesdata";
+import { formula1videosdata } from "../../constants/formula1videosdata";
 import { featuredstoriesdata } from "../../constants/featuredstoriesdata";
 import { featuredvideosdata } from "../../constants/featuredvideosdata";
 import { footballstoriesdata } from "../../constants/footballstoriesdata";
@@ -41,17 +41,17 @@ const Home = () => {
             data={footballvideosdata}
           />
         </div>
-        {/* basketball seciton */}
+        {/* formula1 seciton */}
         <div>
           <FeaturedStoriesSection
             mode="specific"
-            title="BASKETBALL STORIES"
-            data={basketballstoriesdata}
+            title="FORMULA 1 STORIES"
+            data={formula1storiesdata}
           />
           <VideosSection
             mode="video-full"
-            title="BASKETBALL VIDEOS"
-            data={basketballvideosdata}
+            title="FORMULA 1 VIDEOS"
+            data={formula1videosdata}
           />
         </div>
         <VideosSection

@@ -13,17 +13,18 @@ const CustomLayout = () => {
         minHeight: "100vh",
       }}
     >
-      <MarqueeText filter="small" />
       <Header
         style={{
           height: "inherit",
           position: "sticky",
+          background: "transparent",
           top: 0,
-          zIndex: 1,
+          zIndex: 10,
           padding: 0,
         }}
       >
         <CustomNavbar />
+        <MarqueeText filter="small" />
       </Header>
       <Content
         style={{

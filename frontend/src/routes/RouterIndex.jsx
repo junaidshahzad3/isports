@@ -13,8 +13,8 @@ export default function RouterIndex() {
           <Route element={<CustomLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="/faculty" element={<Faculty />} />
-            <Route path="/news-articles" element={<NewsArticles />} />
-            <Route path="/sports-news" element={<SportsNews />} />
+            <Route path="/sports" element={<NewsArticles />} />
+            {/* <Route path="/sports-news" element={<SportsNews />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>

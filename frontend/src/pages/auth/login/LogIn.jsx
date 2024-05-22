@@ -13,7 +13,6 @@ const LogIn = () => {
   const [form] = Form.useForm();
 
   const onFinish = (values) => {
-    console.log("Received values from form: ", values);
     const formData = new FormData();
     for (let key in values) {
       formData.append(key, values[key]);

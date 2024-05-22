@@ -8,7 +8,7 @@ const MarqueeText = ({ filter }) => {
       {/* header small marquee/auto-moving text */}
       {filter === "small" && (
         <div className="w-full h-20 flex items-center bg-black">
-          <div className="slider m-auto overflow-hidden relative max-w-[1600px] w-[100%]">
+          <div className="slider m-auto overflow-hidden relative max-w-[1200px] w-[100%]">
             <div className="slide-track flex gap-16 items-center">
               {(content || [])?.map((values, index) => (
                 <React.Fragment key={index}>

@@ -8,9 +8,9 @@ const MatchSchedules = () => {
         {data?.map((values, index) => (
           <div
             key={index}
-            onClick={() => {
-              return (window.location.href = `${values.link}`);
-            }}
+            // onClick={() => {
+            //   return (window.location.href = `${values.link}`);
+            // }}
             className="border border-zinc-200 hover:border hover:border-black cursor-pointer p-6 space-y-2 min-w-[250px] w-full"
           >
             <div className="font-semibold text-zinc-400">{values.category}</div>
@@ -43,9 +43,9 @@ const MatchSchedules = () => {
       </div>
       <div className="w-full max-w-[220px] h-full flex justify-center items-center bg-white">
         <button
-          onClick={() =>
-            (window.location.href = "https://www.foxsports.com/scores")
-          }
+          // onClick={() =>
+          //   (window.location.href = "https://www.foxsports.com/scores")
+          // }
           className="border border-zinc-200 hover:bg-black hover:text-white transition-all duration-200 py-2 px-4 rounded-full"
         >
           Show all

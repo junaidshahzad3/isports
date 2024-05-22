@@ -5,9 +5,9 @@ const VideosComponentContainer = ({ data }) => {
   return (
     <div className="flex flex-col gap-4 items-center my-10">
       <div
-        onClick={() => {
-          return (window.location.href = `${data[0].link}`);
-        }}
+        // onClick={() => {
+        //   return (window.location.href = `${data[0].link}`);
+        // }}
         className={`w-full group relative overflow-hidden rounded-lg shadow-md`}
       >
         <img
@@ -31,9 +31,9 @@ const VideosComponentContainer = ({ data }) => {
               <div
                 key={index}
                 className="group overflow-hidden cursor-pointer w-full hover:shadow-lg hover:rounded"
-                onClick={() => {
-                  return (window.location.href = `${values.link}`);
-                }}
+                // onClick={() => {
+                //   return (window.location.href = `${values.link}`);
+                // }}
               >
                 <div className="relative">
                   <img

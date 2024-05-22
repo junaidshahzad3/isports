@@ -3,9 +3,9 @@ import moment from "moment";
 const FeaturedStoryCard = ({ link, image, title, date, className }) => {
   return (
     <div
-      onClick={() => {
-        return (window.location.href = `${link}`);
-      }}
+      // onClick={() => {
+      //   return (window.location.href = `${link}`);
+      // }}
       className={`${className} group relative overflow-hidden rounded-lg shadow-md`}
     >
       <img

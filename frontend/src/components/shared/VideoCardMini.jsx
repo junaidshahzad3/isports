@@ -5,9 +5,9 @@ const VideoCardMini = ({ link, mode, image, title, date }) => {
   return (
     <div
       className="overflow-hidden cursor-pointer w-full max-w-[250px] hover:shadow-lg hover:rounded"
-      onClick={() => {
-        return (window.location.href = `${link}`);
-      }}
+      // onClick={() => {
+      //   return (window.location.href = `${link}`);
+      // }}
     >
       <div className="relative">
         <img

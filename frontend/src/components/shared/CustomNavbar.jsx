@@ -5,6 +5,7 @@ import { Button, Drawer } from "antd";
 import useScreenWidth from "../../helpers/useScreenWidth";
 import CustomLogo from "./CustomLogo";
 import { navlinks } from "../../constants/constants";
+import Search from "./Search";
 
 const CustomNavbar = () => {
   let width = useScreenWidth();
@@ -40,24 +41,21 @@ const CustomNavbar = () => {
           </Button>
           <span className="navbar-logo flex items-center">
             <Link to="/">
-              {/* <img
-                    src={logo}
-                    alt="logo"
-                    className="w-[120px] h-[70px] sm:w-[150px] sm:h-[80px] md:w-[200px] md:h-[100px]"
-                    loading="lazy"
-                  /> */}
               <CustomLogo color="black" />
             </Link>
           </span>
 
-          {width > 1023 && (
-            <div className="flex space-x-4">
+          {width > 1023 ? (
+            <div className="flex space-x-4 items-center">
               {navlinks.map((page) => (
                 <Link key={page.path} to={page.path} className="nav-link">
                   {page.name}
                 </Link>
               ))}
+              <Search />
             </div>
+          ) : (
+            <Search />
           )}
         </div>
       </div>

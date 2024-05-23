@@ -1,5 +1,195 @@
 export const articlesdata = [
   {
+    title: "ICC Announces Fixtures for T20 World Cup 2024",
+    date: "Shahzaib Shahzad",
+    location: "Dubai, UAE",
+    content: "The ICC has released the full schedule for the T20 World Cup 2024, which will be held in the USA and West Indies. The tournament kicks off on June 3, 2024, with the opening match between the USA and Canada in Texas. Key matches include India vs Pakistan on June 9 in Long Island, New York, and Australia vs England on June 8 in Barbados.",
+    image: "https://th.bing.com/th/id/OIP.XxWIYjc9nRlxjCpD7YiOEgHaFj?w=231&h=180&c=7&r=0&o=5&pid=1.7"
+  }
+,
+{
+  title: "Babar Azam Reinstated as Pakistan T20 Captain",
+  date: "May 21, 2024",
+  location: "Karachi, Pakistan",
+  content: "Babar Azam has been reinstated as the captain of Pakistan's T20 team ahead of the 2024 World Cup. This decision comes as a boost to the squad, with Babar's leadership and batting prowess expected to play a crucial role in Pakistan's campaign.",
+  image: "https://th.bing.com/th/id/OIP.nx1pcN_ybMDxJ8d9b2Wf7gHaEO?w=277&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Warm-Up Matches Announced for T20 World Cup 2024",
+  date: "Shahzaib Shahzad",
+  location: "Providence, Guyana",
+  content: "The ICC has scheduled several warm-up matches ahead of the T20 World Cup 2024. Teams like Sri Lanka and South Africa will play practice games in Guyana, while Afghanistan will face Uganda. These matches are crucial for teams to fine-tune their strategies before the main event.",
+  image: "https://th.bing.com/th/id/OIP.rsxIZKfgDiZvQrmL6JPz3AHaJQ?w=130&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Netherlands Adjusts Squad Due to Injuries Ahead of T20 World Cup",
+  date: "Shahzaib Shahzad",
+  location: "Amsterdam, Netherlands",
+  content: "The Netherlands cricket team has announced changes to their squad for the T20 World Cup 2024 due to several key players suffering from injuries. These adjustments are expected to impact the team's dynamics as they prepare for the tournament.",
+  image: "https://th.bing.com/th/id/OIP.OwJ6Hv5UVYsSdTD6PASgVQAAAA?w=299&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Sir Curtly Ambrose Optimistic About West Indies' T20 World Cup Chances",
+  date: "Shahzaib Shahzad",
+  location: "Bridgetown, Barbados",
+  content: "West Indies cricket legend Sir Curtly Ambrose has expressed optimism about the team's chances in the upcoming T20 World Cup. He believes the current squad has the talent and experience needed to perform well on home soil and in the USA.",
+  image: "https://th.bing.com/th/id/OIP._YIi-sbrIoRN4fvCssS0jwHaE6?w=249&h=180&c=7&r=0&o=5&pid=1.7"
+},
+  {
+    title: "Pakistan Secures Bronze in Asian Champions Trophy",
+    date: "Shahzaib Shahzad",
+    location: "Dhaka, Bangladesh",
+    content: "Pakistan's national hockey team clinched the bronze medal in the Asian Champions Trophy by defeating India 5-3. This victory is seen as a significant morale booster for the team, which is striving to regain its former glory in international hockey.",
+    image: "https://th.bing.com/th/id/OIP.dmCU8PSYKdySQtMmV_z2dQFZC0?w=298&h=180&c=7&r=0&o=5&pid=1.7"
+  },
+  {
+    title: "Qatar 2022 World Cup Preparations in Full Swing",
+    date: "Shahzaib Shahzad",
+    location: "Doha, Qatar",
+    content: "With less than a year to go, Qatar's preparations for the 2022 FIFA World Cup are progressing rapidly. The newly built stadiums and upgraded infrastructure are set to provide a world-class experience for fans. This will be the first World Cup held in the Arab world.",
+    image: "https://th.bing.com/th/id/OIP.mlvhckXU0ya_2x_n_Z4M2gHaEH?w=330&h=183&c=7&r=0&o=5&pid=1.7"
+  }
+,
+{
+  title: "Shaheen Afridi's Five-Wicket Haul Dismantles Bangladesh",
+  date: "Shahzaib Shahzad",
+  location: "Dhaka, Bangladesh",
+  content: "Shaheen Afridi took five wickets in a dominant display of fast bowling to help Pakistan secure a comprehensive victory against Bangladesh in the first Test match. His performance was crucial in dismissing Bangladesh for just 157 runs in their first innings.",
+  image: "https://th.bing.com/th/id/OIP.VR2V6TXjo4YkUH8Mcxc_mwHaFQ?w=225&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Women's Hockey Team Impresses in Asia Cup",
+  date: "Shahzaib Shahzad",
+  location: "Muscat, Oman",
+  content: "The Pakistan women's hockey team delivered a series of impressive performances in the Women's Asia Cup, making it to the semi-finals for the first time. Their skill and determination have earned them praise and recognition on the international stage.",
+  image: "https://th.bing.com/th/id/OIP.c39esfob3NTvA8j42A5oTwHaEK?w=312&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Lionel Messi Wins Seventh Ballon d'Or",
+  date: "Shahzaib Shahzad",
+  location: "Paris, France",
+  content: "Lionel Messi won his seventh Ballon d'Or, further cementing his legacy as one of the greatest footballers of all time. The award comes after a stellar season with both his club and national team, including leading Argentina to Copa America victory.",
+  image: "https://th.bing.com/th/id/OIP.7frXKJKUNv3PWbxMq4HP9AHaEK?w=311&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Wins T20 Series Against West Indies",
+  date: "Shahzaib Shahzad",
+  location: "Karachi, Pakistan",
+  content: "Pakistan secured a convincing 3-0 series win against the West Indies in the T20 series. Captain Babar Azam and fast bowler Shaheen Afridi were the standout performers, showcasing excellent form ahead of the T20 World Cup.",
+  image: "https://th.bing.com/th/id/OIP.Pb6Ka8nwHfqAdPg7mdJ2xQHaFj?w=220&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Men’s Hockey Team Prepares for Commonwealth Games",
+  date: "Shahzaib Shahzad",
+  location: "Lahore, Pakistan",
+  content: "The Pakistan men's hockey team is in intense preparation for the upcoming Commonwealth Games. With a new coaching staff and rigorous training sessions, the team aims to make a strong impact and bring home a medal.",
+  image: "https://th.bing.com/th/id/OIP.KmD8YpvRKgcxP7OPbz6YPQHaEx?w=291&h=187&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Cristiano Ronaldo Sets New International Goals Record",
+  date: "Shahzaib Shahzad",
+  location: "Faro, Portugal",
+  content: "Cristiano Ronaldo became the highest-scoring international player in men's football history, surpassing Ali Daei's record of 109 goals. Ronaldo achieved this milestone by scoring twice in Portugal's World Cup qualifier against Ireland.",
+  image: "https://th.bing.com/th/id/OIP.L3XXUfwuG_wsoSwI8JNFfgAAAA?w=290&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Mohammad Rizwan Named ICC T20I Player of the Year",
+  date: "Shahzaib Shahzad",
+  location: "Dubai, UAE",
+  content: "Mohammad Rizwan was named the ICC T20I Player of the Year after an exceptional season. Rizwan scored 1,326 runs in 29 matches, the most by any player in a calendar year, helping Pakistan to numerous victories with his consistent performances.",
+  image: "https://th.bing.com/th/id/OIP.RxoBPhQsRBzm7EDzxO0-MQHaEK?w=294&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Wins Hockey Series Against Netherlands",
+  date: "Shahzaib Shahzad",
+  location: "Amsterdam, Netherlands",
+  content: "Pakistan's national hockey team won the three-match series against the Netherlands, securing victory in the final game with a score of 4-2. This win is an encouraging sign of progress for the team under the new coaching regime.",
+  image: "https://th.bing.com/th/id/OIP.YqLOciU05TvpT56Mynp8yQHaEw?w=295&h=190&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "FIFA Announces Expansion of Club World Cup",
+  date: "Shahzaib Shahzad",
+  location: "Zurich, Switzerland",
+  content: "FIFA announced the expansion of the Club World Cup to 24 teams, starting in 2025. This move aims to increase the competition's global appeal and provide more opportunities for clubs from different continents to compete on the world stage.",
+  image: "https://th.bing.com/th/id/OIP.ueKb6KriWq49AS4DTPMRzQHaDt?w=297&h=175&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Defeats India in T20 World Cup Clash",
+  date: "Shahzaib Shahzad",
+  location: "Dubai, UAE",
+  content: "In a historic T20 World Cup match, Pakistan defeated India by 10 wickets, marking their first-ever World Cup win against their arch-rivals. Shaheen Afridi's early breakthroughs and unbeaten half-centuries from Babar Azam and Mohammad Rizwan led Pakistan to a memorable victory.",
+  image: "https://th.bing.com/th/id/OIP.M4ZrBO8IdJFjuuj7mDQMGQAAAA?w=309&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Hosts International Hockey Tournament",
+  date: "Shahzaib Shahzad",
+  location: "Karachi, Pakistan",
+  content: "For the first time in over a decade, Pakistan hosted an international hockey tournament, featuring teams from Asia and Europe. The event was a significant step towards reviving hockey in the country and showcased Pakistan's ability to host international sporting events safely.",
+  image: "https://th.bing.com/th/id/OIP.q7dHWXj_H_QtQARrcK7PzAHaD8?w=311&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "FIFA Unveils Official Ball for 2022 World Cup",
+  date: "Shahzaib Shahzad",
+  location: "Doha, Qatar",
+  content: "FIFA unveiled the official match ball for the 2022 World Cup, named 'Al Rihla', which means 'The Journey' in Arabic. The ball, designed by Adidas, features advanced aerodynamics and sustainability elements, making it one of the most innovative footballs ever created.",
+  image: "https://th.bing.com/th/id/OIP.Qwd9GTpaVFZvBd0e0THbxgHaE8?w=196&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Clinches Test Series Against New Zealand",
+  date: "Shahzaib Shahzad",
+  location: "Christchurch, New Zealand",
+  content: "Pakistan secured a hard-fought victory in the Test series against New Zealand, winning the decisive match by 123 runs. Fawad Alam's century and Yasir Shah's five-wicket haul were instrumental in Pakistan's triumph.",
+  image: "https://th.bing.com/th/id/OIP.wZmWDElYJFThJ2EzS2F76wHaEK?w=292&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Hockey Federation Launches Youth Development Program",
+  date: "Shahzaib Shahzad",
+  location: "Lahore, Pakistan",
+  content: "The Pakistan Hockey Federation launched a comprehensive youth development program aimed at nurturing young talent and revitalizing the sport in the country. The program includes grassroots training, talent identification, and international exposure for promising players.",
+  image: "https://th.bing.com/th/id/OIP.AIEuIlPxzf4jAc1TCZS_fQHaE2?w=282&h=185&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "FIFA World Cup Qualifiers: Brazil and Argentina Secure Spots",
+  date: "Shahzaib Shahzad",
+  location: "São Paulo, Brazil",
+  content: "Brazil and Argentina became the first teams to secure their spots in the 2022 FIFA World Cup through the South American qualifiers. Both teams have been dominant in their campaigns, showcasing their depth and talent.",
+  image: "https://th.bing.com/th/id/OIP.dxGnouNli1Iqr_sZBcDX9AHaEK?w=312&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan Super League 2022: Lahore Qalandars Crowned Champions",
+  date: "Shahzaib Shahzad",
+  location: "Lahore, Pakistan",
+  content: "Lahore Qalandars won their maiden Pakistan Super League (PSL) title by defeating Multan Sultans in the final. Fakhar Zaman's explosive batting and Shaheen Afridi's exceptional bowling were key to their victory.",
+  image: "https://th.bing.com/th/id/OIP.fcBxFwcEnUJYagDVA8AeaQHaEK?w=311&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+{
+  title: "Pakistan to Host 2023 Men's Hockey Asia Cup",
+  date: "Shahzaib Shahzad",
+  location: "Lahore, Pakistan",
+  content: "The Asian Hockey Federation announced that Pakistan will host the 2023 Men's Hockey Asia Cup. This decision reflects growing confidence in Pakistan's ability to host major international sporting events and is expected to boost the sport's popularity in the country.",
+  image: "https://th.bing.com/th/id/OIP.7pIcy5U_2336RY77S89wbAAAAA?w=276&h=180&c=7&r=0&o=5&pid=1.7"
+}
+,
+  {
     title:
       "Breaking News: LeBron James Leads Lakers to Victory in Thrilling Overtime Win",
     date: "Shahzaib Shahzad",

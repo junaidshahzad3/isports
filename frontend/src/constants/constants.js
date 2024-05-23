@@ -1,6 +1,6 @@
 export const navlinks = [
   { name: "Home", path: "/" },
-  { name: "Sports", path: "/sports" },
+  { name: "News Articles", path: "/news-articles" },
   // { name: "Sports News", path: "/sports-news" },
   { name: "Faculty", path: "/faculty" },
 ];

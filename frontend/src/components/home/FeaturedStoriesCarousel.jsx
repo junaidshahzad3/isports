@@ -37,10 +37,7 @@ const FeaturedStoriesCarousel = ({ className, data }) => {
             {group.map((item) => (
               <FeaturedStoryCard
                 key={item.id}
-                image={item.image}
-                title={item.title}
-                date={item.date}
-                link={item.link}
+                data={item}
                 className="h-[400px] w-full max-w-[250px]"
               />
             ))}

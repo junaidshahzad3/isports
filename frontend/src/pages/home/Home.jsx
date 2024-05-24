@@ -1,19 +1,19 @@
-import AllCategories from "../../components/home/AllCategories";
 import FeaturedStoriesSection from "../../components/home/FeaturedStoriesSection";
-import MatchSchedules from "../../components/home/MatchSchedules";
 import VideosSection from "../../components/home/VideosSection";
-import { formula1storiesdata } from "../../constants/formula1storiesdata";
-import { formula1videosdata } from "../../constants/formula1videosdata";
-import { featuredstoriesdata } from "../../constants/featuredstoriesdata";
-import { featuredvideosdata } from "../../constants/featuredvideosdata";
-import { footballstoriesdata } from "../../constants/footballstoriesdata";
-import { footballvideosdata } from "../../constants/footballvideosdata";
-import { livenowdata } from "../../constants/livenowdata";
 import { useEffect, useState } from "react";
 import { getSearchedResults } from "../../helpers/getSearchedResults";
 import { useSelector } from "react-redux";
+import { articlesdata } from "../../constants/articlesdata";
 
 const Home = () => {
+  const featuredstoriesdata = articlesdata.slice(0, 8);
+  const livenowdata = articlesdata.slice(8, 16);
+  const footballstoriesdata = articlesdata.slice(16, 19);
+  const footballvideosdata = articlesdata.slice(19, 22);
+  const formula1storiesdata = articlesdata.slice(22, 25);
+  const formula1videosdata = articlesdata.slice(25, 28);
+  const featuredvideosdata = articlesdata.slice(28, 36);
+
   const search = useSelector((state) => state.feature.search);
   const [featuredStories, setFeaturedStories] = useState(
     featuredstoriesdata || []
@@ -62,26 +62,30 @@ const Home = () => {
             {featuredStories.length > 0 && (
               <FeaturedStoriesSection
                 mode="stories"
-                title="FEATURED STORIES"
+                // title="FEATURED STORIES"
                 data={featuredStories}
               />
             )}
             {liveNow.length > 0 && (
-              <VideosSection mode="live" title="LIVE" data={liveNow} />
+              <VideosSection
+                mode="live"
+                // title="LIVE"
+                data={liveNow}
+              />
             )}
             {(footballStories.length > 0 || footballVideos.length > 0) && (
               <div>
                 {footballStories.length > 0 && (
                   <FeaturedStoriesSection
                     mode="specific"
-                    title="FOOTBALL STORIES"
+                    // title="FOOTBALL STORIES"
                     data={footballStories}
                   />
                 )}
                 {footballVideos.length > 0 && (
                   <VideosSection
                     mode="video-full"
-                    title="FOOTBALL VIDEOS"
+                    // title="FOOTBALL VIDEOS"
                     data={footballVideos}
                   />
                 )}
@@ -92,14 +96,14 @@ const Home = () => {
                 {formula1Stories.length > 0 && (
                   <FeaturedStoriesSection
                     mode="specific"
-                    title="FORMULA 1 STORIES"
+                    // title="FORMULA 1 STORIES"
                     data={formula1Stories}
                   />
                 )}
                 {formula1Videos.length > 0 && (
                   <VideosSection
                     mode="video-full"
-                    title="FORMULA 1 VIDEOS"
+                    // title="FORMULA 1 VIDEOS"
                     data={formula1Videos}
                   />
                 )}
@@ -108,7 +112,7 @@ const Home = () => {
             {featuredVideos.length > 0 && (
               <VideosSection
                 mode="video-mini"
-                title="FEATURED VIDEOS"
+                // title="FEATURED VIDEOS"
                 data={featuredVideos}
               />
             )}

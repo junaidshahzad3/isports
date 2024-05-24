@@ -1,13 +1,14 @@
 import React from "react";
 import moment from "moment";
+import { useNavigate } from "react-router-dom";
 
 const SpecificStories = ({ data }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col gap-4 items-center my-10">
       <div
-        // onClick={() => {
-        //   return (window.location.href = `${data[0].link}`);
-        // }}
+        onClick={() => navigate(`/article/${data[0].id}`)}
         className={`w-full group relative overflow-hidden rounded-lg shadow-md`}
       >
         <img
@@ -29,9 +30,7 @@ const SpecificStories = ({ data }) => {
               <div
                 key={index}
                 className="overflow-hidden cursor-pointer w-full hover:shadow-lg hover:rounded"
-                // onClick={() => {
-                //   return (window.location.href = `${values.link}`);
-                // }}
+                onClick={() => navigate(`/article/${values.id}`)}
               >
                 <img
                   className="w-full max-h-[300px] object-cover shadow-inner rounded"

@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { articlesdata } from "../../constants/articlesdata";
 import { useSelector } from "react-redux";
 import { getSearchedResults } from "../../helpers/getSearchedResults";
+import { useNavigate } from "react-router-dom";
 
 const Articles = () => {
+  const navigate = useNavigate();
   const search = useSelector((state) => state.feature.search);
   const [articles, setArticles] = useState(articlesdata || []);
 
@@ -22,6 +24,7 @@ const Articles = () => {
               <div
                 key={index}
                 className="p-6 space-y-2 min-w-[220px] w-full max-w-[300px] hover:shadow-lg rounded-xl border border-transparent hover:border-zinc-200"
+                onClick={() => navigate(`/article/${values.id}`)}
               >
                 <div className="flex flex-col gap-4 items-center">
                   <img

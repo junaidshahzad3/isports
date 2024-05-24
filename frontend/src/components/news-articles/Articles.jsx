@@ -30,7 +30,7 @@ const Articles = () => {
                     className="w-[150px] h-[150px] shadow-inner object-cover rounded-full border border-zinc-200"
                   />
                   <div className="font-bold">{values.title}</div>
-                  <div className="font-bold">by {values.date}</div>
+                  <div className="font-bold">by {values.by}</div>
                   <div className="font-bold">{values.location}</div>
                   <div className="">{values.content}</div>
                 </div>

@@ -1,8 +1,11 @@
 import React from "react";
 import "./MarqueeText.css";
 import content from "../../constants/topmarqueedata.json";
+import { articlesdata } from "../../constants/articlesdata";
 
 const MarqueeText = ({ filter }) => {
+  const newData = articlesdata.slice(0, 6);
+  const headlinesData = [...newData, ...newData];
   return (
     <>
       {/* header small marquee/auto-moving text */}
@@ -10,19 +13,17 @@ const MarqueeText = ({ filter }) => {
         <div className="w-full h-20 flex items-center bg-black">
           <div className="slider m-auto overflow-hidden relative max-w-[1200px] w-[100%]">
             <div className="slide-track flex gap-16 items-center">
-              {(content || [])?.map((values, index) => (
+              {(headlinesData || [])?.map((values, index) => (
                 <React.Fragment key={index}>
                   {values.image && (
                     <img
                       src={values.image}
                       alt=""
-                      className="w-[35px] h-[35px] rounded-full object-cover"
+                      className="w-[40px] h-[40px] rounded-full object-cover"
                     />
                   )}
-                  {values.text && (
-                    <div className="slide text-white font-futura-bold text-xs">
-                      {values.text}
-                    </div>
+                  {values.title && (
+                    <div className="slide text-white">{values.title}</div>
                   )}
                   <div className="dot bg-white rounded-full"></div>
                 </React.Fragment>
